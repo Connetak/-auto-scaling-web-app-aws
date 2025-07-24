@@ -16,7 +16,9 @@ cat <<EOF > /var/www/html/index.html
   <body>
     <h1 style="color:green;">🚀 Deployed by Auto Scaling Group</h1>
     <p>Project by <strong>Akash Kumar</strong> - AWS Beginner Cloud Engineer</p>
-    <p>Instance ID: $(curl http://169.254.169.254/latest/meta-data/instance-id)</p>
+    <p>Instance ID:  $INSTANCE_ID</P>
   </body>
 </html>
 EOF
+
+  
