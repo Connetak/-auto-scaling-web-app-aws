@@ -12,7 +12,7 @@ This project demonstrates how to deploy a simple, highly available web applicati
 ## 🧠 What Happens
 - The EC2 instances auto-scale based on CPU usage
 - Traffic is distributed using an Application Load Balancer
-- The web server shows: `Hello from AWS Auto-Scaling Web App!`
+- The web server shows: `This is a simple interactive contact form deployed via AWS EC2 & Auto Scaling.
 
 ## 📁 Files Included
 - `user-data.sh` – Startup script for EC2
